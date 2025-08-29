@@ -9,7 +9,7 @@ class InfoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final counter = Provider.of<CounterProvider>(context);
-    final themeProvider = Provider.of<ThemeProvider>(context); // للحصول على حالة الثيم
+    final themeProvider = Provider.of<ThemeProvider>(context); 
 
     return Scaffold(
       appBar: AppBar(title: const Text("Summary")),
